@@ -1,0 +1,43 @@
+{
+  "name": "zool-utils",
+  "version": "0.1.0",
+  "description": "utilities for zool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd"
+  },
+  "author": {
+    "name": "Stuart Plumbley",
+    "email": "stuplum@inkfish.co",
+    "url": "http://stuplum.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stuplum/zool-utils.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stuplum/zool-utils/issues"
+  },
+  "keywords": [
+    "zool",
+    "logging",
+    "log",
+    "logger"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "commander": "^2.9.0",
+    "glob": "^6.0.4",
+    "mocha": "^1.17.1",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0",
+    "zool-test-support": "0.1.2"
+  }
+}
